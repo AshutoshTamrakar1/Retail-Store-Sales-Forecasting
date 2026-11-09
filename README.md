@@ -66,7 +66,7 @@ All models were evaluated on the leak-free 61-day chronological holdout window (
 
 ## Repository Structure
 
-* [`job-a-thon-final.ipynb`](job-a-thon-final.ipynb) — End-to-end refactored notebook: EDA, stationarity & anomaly analysis, leak-free chronological feature engineering, multi-model comparison with 95% bootstrap confidence intervals, slice error analysis, and test forecasting.
+* [`womart_sales_forecasting.ipynb`](womart_sales_forecasting.ipynb) — End-to-end refactored notebook: EDA, stationarity & anomaly analysis, leak-free chronological feature engineering, multi-model comparison with 95% bootstrap confidence intervals, slice error analysis, and test forecasting.
 * [`TRAIN.csv`](TRAIN.csv) — Historical daily sales and order counts for 365 stores (`2018-01-01` to `2019-05-31`).
 * [`TEST_FINAL.csv`](TEST_FINAL.csv) — 2-month forecasting horizon (`2019-06-01` to `2019-07-31`).
 * [`SAMPLE.csv`](SAMPLE.csv) — Sample submission format.
